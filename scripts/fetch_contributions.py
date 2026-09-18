@@ -44,26 +44,6 @@ def parse_contributions():
 
     days = []
 
-    # ------------------------------------------
-    # Build tooltip lookup
-    # ------------------------------------------
-
-    tooltips = {}
-
-    for tooltip in soup.select("tool-tip"):
-
-        text = tooltip.get_text(
-            " ",
-            strip=True
-        )
-
-        if text:
-            tooltips[id(tooltip)] = text
-
-    # ------------------------------------------
-    # Read every contribution day
-    # ------------------------------------------
-
     for cell in cells:
 
         contribution_date = cell.get(
@@ -73,9 +53,9 @@ def parse_contributions():
         if not contribution_date:
             continue
 
-        # GitHub currently provides data-level
-        # directly on the calendar cell.
-
+        # GitHub gives each day a contribution level.
+        # 0 = no contribution
+        # 1-4 = contribution
         level = int(
             cell.get(
                 "data-level",
@@ -85,73 +65,32 @@ def parse_contributions():
 
         count = 0
 
-        # --------------------------------------
-        # Check aria-label
-        # --------------------------------------
-
-        aria = cell.get(
-            "aria-label",
-            ""
+        # GitHub puts the contribution information
+        # inside the calendar cell's tooltip.
+        cell_text = cell.get_text(
+            " ",
+            strip=True
         )
 
         match = re.search(
             r"([\d,]+)\s+contribution",
-            aria,
+            cell_text,
             re.IGNORECASE
         )
 
         if match:
+
             count = int(
                 match.group(1).replace(",", "")
             )
 
-        # --------------------------------------
-        # Check title
-        # --------------------------------------
-
-        if count == 0:
-
-            title = cell.get(
-                "title",
-                ""
-            )
-
-            match = re.search(
-                r"([\d,]+)\s+contribution",
-                title,
-                re.IGNORECASE
-            )
-
-            if match:
-                count = int(
-                    match.group(1).replace(",", "")
-                )
-
-        # --------------------------------------
-        # Look for nearby tooltip
-        # --------------------------------------
-
-        if count == 0:
-
-            parent = cell.parent
-
-            if parent:
-
-                text = parent.get_text(
-                    " ",
-                    strip=True
-                )
-
-                match = re.search(
-                    r"([\d,]+)\s+contribution",
-                    text,
-                    re.IGNORECASE
-                )
-
-                if match:
-                    count = int(
-                        match.group(1).replace(",", "")
-                    )
+        # If the count cannot be read but the
+        # contribution level is greater than 0,
+        # we know this was a contribution day.
+        #
+        # We don't invent a count here.
+        if count == 0 and level == 0:
+            count = 0
 
         days.append(
             {
@@ -176,6 +115,10 @@ def calculate_metrics(days):
         key=lambda item: item["date"]
     )
 
+    # ------------------------------------------
+    # Total contributions
+    # ------------------------------------------
+
     total = sum(
         item["count"]
         for item in ordered
@@ -188,11 +131,25 @@ def calculate_metrics(days):
     longest_streak = 0
     current_run = 0
 
+    previous_day = None
+
     for item in ordered:
 
+        current_day = date.fromisoformat(
+            item["date"]
+        )
+
+        # Contribution day
         if item["count"] > 0:
 
-            current_run += 1
+            if (
+                previous_day is not None
+                and current_day == previous_day + timedelta(days=1)
+            ):
+                current_run += 1
+
+            else:
+                current_run = 1
 
             longest_streak = max(
                 longest_streak,
@@ -203,37 +160,23 @@ def calculate_metrics(days):
 
             current_run = 0
 
-   # ------------------------------------------
-# Current streak
-# ------------------------------------------
+        previous_day = current_day
 
-contribution_map = {
-    date.fromisoformat(item["date"]): item["count"]
-    for item in ordered
-}
+    # ------------------------------------------
+    # Current streak
+    # ------------------------------------------
 
-latest_day = max(contribution_map.keys())
+    contribution_map = {
+        date.fromisoformat(item["date"]): item["count"]
+        for item in ordered
+    }
 
-current_streak = 0
-current_day = latest_day
-
-while contribution_map.get(current_day, 0) > 0:
-    current_streak += 1
-    current_day -= timedelta(days=1)
-
-    # If today has no contribution,
-    # start checking from yesterday.
-
-    if contribution_map.get(
-        current_day,
-        0
-    ) == 0:
-
-        current_day -= timedelta(
-            days=1
-        )
+    latest_day = max(
+        contribution_map.keys()
+    )
 
     current_streak = 0
+    current_day = latest_day
 
     while contribution_map.get(
         current_day,
@@ -330,6 +273,15 @@ def main():
     )
 
     print()
+
+    print(
+        f"Best day: "
+        f"{metrics['best_day']['date']} "
+        f"({metrics['best_day']['count']} contributions)"
+    )
+
+    print()
+
     print(
         f"Saved: {OUT}"
     )
