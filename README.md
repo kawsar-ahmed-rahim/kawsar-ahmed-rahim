@@ -15,8 +15,9 @@
 
 ---
 
-## <code>Contributions</code>
-<div align="center"><img src="./contrib-heatmap.svg" width="860" alt="Live contribution heatmap"></div>
+## <code>Achievements</code>
+GitHub achievement icons are account-specific. View the achievements currently awarded to this account:
+<a href="https://github.com/kawsar-ahmed-rahim"><img src="https://img.shields.io/badge/View%20GitHub%20Achievements-0d0d0d?style=for-the-badge&logo=github&logoColor=00BFFF" alt="GitHub achievements"></a>
 
 ---
 
