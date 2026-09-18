@@ -62,12 +62,6 @@ Personal developer portfolio presenting skills, projects and contact information
 | 📚 Learning           | Better architecture, APIs, deployment and production engineering       |
 | ⚡ Fun Fact           | I enjoy turning programming logic into interactive browser experiences |
 
----
-
-## <code>Achievements</code>
-
-GitHub achievement icons are account-specific. View the achievements currently awarded to this account:
-<a href="https://github.com/kawsar-ahmed-rahim?tab=achievements"><img src="https://img.shields.io/badge/View%20GitHub%20Achievements-0d0d0d?style=for-the-badge&logo=github&logoColor=00BFFF" alt="GitHub achievements"></a>
 
 ---
 
