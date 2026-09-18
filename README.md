@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/Dhaka%2C%20Bangladesh-0d0d0d?style=for-the-badge&logo=googlemaps&logoColor=00BFFF" alt="Dhaka, Bangladesh">
 
 <a href="https://capsule-render.vercel.app/"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:191919,100:00BFFF&height=170&section=header&text=FULL%20STACK%20WEB%20DEVELOPER&fontColor=ffffff&fontSize=36&fontAlignY=42&animation=fadeIn" width="100%" alt="Cinematic banner"></a>
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=00BFFF&center=true&vCenter=true&width=760&lines=Building+clean%2C+scalable+web+experiences.;React+%2B+Node.js+%2B+Python+%7C+shipping+ideas+to+production.;Learn.+Build.+Debug.+Ship." alt="Typing developer quotes"></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=00BFFF&center=true&vCenter=true&width=760&lines=Building+clean%2C+scalable+web+experiences.;React+%2B+Node.js+%2B+Express+%7C+Python+%2B+Django+%2B+DRF.;Learn.+Build.+Debug.+Ship." alt="Typing developer quotes"></a>
 </div>
 
 ---
