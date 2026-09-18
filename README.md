@@ -11,17 +11,20 @@
 
 <a href="https://capsule-render.vercel.app/"><img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d0d0d,50:191919,100:00BFFF&height=170&section=header&text=FULL%20STACK%20WEB%20DEVELOPER&fontColor=ffffff&fontSize=36&fontAlignY=42&animation=fadeIn" width="100%" alt="Cinematic banner"></a>
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1200&color=00BFFF&center=true&vCenter=true&width=760&lines=Building+clean%2C+scalable+web+experiences.;React+%2B+Node.js+%2B+Express+%7C+Python+%2B+Django+%2B+DRF.;Learn.+Build.+Debug.+Ship." alt="Typing developer quotes"></a>
+
 </div>
 
 ---
 
 ## <code>Achievements</code>
+
 GitHub achievement icons are account-specific. View the achievements currently awarded to this account:
 <a href="https://github.com/kawsar-ahmed-rahim"><img src="https://img.shields.io/badge/View%20GitHub%20Achievements-0d0d0d?style=for-the-badge&logo=github&logoColor=00BFFF" alt="GitHub achievements"></a>
 
 ---
 
 ## <code>Featured Gallery</code>
+
 <table><tr>
 <td width="50%" valign="top">
 <h3>🍽️ Restaurant App</h3>
@@ -40,7 +43,9 @@ Personal developer portfolio presenting skills, projects and contact information
 ---
 
 ## <code>Tech Arsenal</code>
+
 ### Frontend / UI
+
 <img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,html,css,js,ts" alt="Frontend">
 ### Backend / Database
 <img src="https://skillicons.dev/icons?i=nodejs,express,python,django,mongodb,mysql" alt="Backend">
@@ -50,21 +55,24 @@ Personal developer portfolio presenting skills, projects and contact information
 ---
 
 ## <code>What I'm Up To</code>
-| Focus | Current state |
-|---|---|
-| 🚧 Currently Building | Full-stack web applications with React, Node.js and Python/Django |
-| 📚 Learning | Better architecture, APIs, deployment and production engineering |
-| ⚡ Fun Fact | I enjoy turning programming logic into interactive browser experiences |
+
+| Focus                 | Current state                                                          |
+| --------------------- | ---------------------------------------------------------------------- |
+| 🚧 Currently Building | Full-stack web applications with React, Node.js and Python/Django      |
+| 📚 Learning           | Better architecture, APIs, deployment and production engineering       |
+| ⚡ Fun Fact           | I enjoy turning programming logic into interactive browser experiences |
 
 ---
 
 ## <code>Achievements</code>
+
 GitHub achievement icons are account-specific. View the achievements currently awarded to this account:
 <a href="https://github.com/kawsar-ahmed-rahim?tab=achievements"><img src="https://img.shields.io/badge/View%20GitHub%20Achievements-0d0d0d?style=for-the-badge&logo=github&logoColor=00BFFF" alt="GitHub achievements"></a>
 
 ---
 
 ## <code>Socials</code>
+
 <div align="center">
 <a href="https://www.linkedin.com/in/kawsar-ahmed-rahim-b52076335"><img src="https://img.shields.io/badge/LinkedIn-0d0d0d?style=for-the-badge&logo=linkedin&logoColor=00BFFF" alt="LinkedIn"></a>
 <a href="https://www.facebook.com/rahim.kawsar.382107"><img src="https://img.shields.io/badge/Facebook-0d0d0d?style=for-the-badge&logo=facebook&logoColor=00BFFF" alt="Facebook"></a>
