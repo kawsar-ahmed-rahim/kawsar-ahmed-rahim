@@ -7,7 +7,7 @@ from PIL import Image, ImageOps
 SOURCE = Path("source-prepped.png")
 OUTPUT = Path("hxni-ascii.svg")
 RAMP = " .`:-=+*cs#%@"
-GOLD, BG = "#D4AF37", "#0d0d0d"
+BLUE, BG = "#00BFFF", "#0d0d0d"
 WIDTH, FONT_SIZE, LINE_HEIGHT = 92, 7.0, 7.5
 
 def main():
@@ -31,7 +31,7 @@ def main():
     svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{card_w:.0f}" height="{card_h:.0f}" viewBox="0 0 {card_w:.0f} {card_h:.0f}">
 <style>
 .card{{fill:{BG};stroke:#333;stroke-width:1.2}}
-.ascii{{fill:{GOLD};font-family:monospace;font-size:{FONT_SIZE}px;letter-spacing:.15px;opacity:0;animation:fin .7s ease-out forwards}}
+.ascii{{fill:{BLUE};font-family:monospace;font-size:{FONT_SIZE}px;letter-spacing:.15px;opacity:0;animation:fin .7s ease-out forwards}}
 @keyframes fin{{from{{opacity:0;transform:translateY(2px)}}to{{opacity:1;transform:translateY(0)}}}}
 </style>
 <defs>{''.join(clips)}</defs>

@@ -9,10 +9,10 @@ OUT = Path("contrib-heatmap.svg")
 
 COLORS = [
     "#161b22",
-    "#3b2f10",
-    "#6f5517",
-    "#a17c20",
-    "#D4AF37",
+    "#0a3d5c",
+    "#0d5f8f",
+    "#0f8ec2",
+    "#00BFFF",
 ]
 
 CELL = 12
@@ -152,7 +152,7 @@ def main():
     }}
 
     .label {{
-        fill: #D4AF37;
+        fill: #00BFFF;
         font-family: monospace;
         font-size: 13px;
         font-weight: 700;

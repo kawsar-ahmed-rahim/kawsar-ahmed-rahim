@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="430" viewBox="0 0 760 430">
 <style>
 .bg{fill:#0d0d0d;stroke:#333;stroke-width:1.2}
-.key{fill:#D4AF37;font:600 17px monospace;opacity:0;animation:fade .55s ease forwards}
+.key{fill:#00BFFF;font:600 17px monospace;opacity:0;animation:fade .55s ease forwards}
 .value{fill:#c9c9c9;font:15px monospace;opacity:0;animation:fade .55s ease forwards}
 .title{fill:#eee;font:600 14px monospace} .dim{fill:#777;font:12px monospace}
 @keyframes fade{from{opacity:0;transform:translateX(-7px)}to{opacity:1;transform:translateX(0)}}
