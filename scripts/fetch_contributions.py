@@ -203,20 +203,23 @@ def calculate_metrics(days):
 
             current_run = 0
 
-    # ------------------------------------------
-    # Current streak
-    # ------------------------------------------
+   # ------------------------------------------
+# Current streak
+# ------------------------------------------
 
-    contribution_map = {
-        date.fromisoformat(item["date"]):
-        item["count"]
+contribution_map = {
+    date.fromisoformat(item["date"]): item["count"]
+    for item in ordered
+}
 
-        for item in ordered
-    }
+latest_day = max(contribution_map.keys())
 
-    today = date.today()
+current_streak = 0
+current_day = latest_day
 
-    current_day = today
+while contribution_map.get(current_day, 0) > 0:
+    current_streak += 1
+    current_day -= timedelta(days=1)
 
     # If today has no contribution,
     # start checking from yesterday.
