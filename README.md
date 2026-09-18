@@ -16,6 +16,16 @@
 
 ---
 
+## **<code>Contribution Activity</code>**
+
+<div align="center">
+
+<img src="./contrib-heatmap.svg" width="100%" alt="GitHub Contribution Heatmap">
+
+</div>
+
+---
+
 ## <code>Achievements</code>
 
 GitHub achievement icons are account-specific. View the achievements currently awarded to this account:
