@@ -1,22 +1,17 @@
 {
   "username": "kawsar-ahmed-rahim",
   "source": "https://github.com/users/kawsar-ahmed-rahim/contributions",
-  "generated_at": "2026-09-19T11:00:28.125900+00:00",
+  "generated_at": "2026-09-20T11:25:51.758424+00:00",
   "metrics": {
-    "total_contributions": 532,
-    "current_streak": 41,
-    "longest_streak": 41,
+    "total_contributions": 530,
+    "current_streak": 42,
+    "longest_streak": 42,
     "best_day": {
       "date": "2026-09-18",
       "count": 29
     }
   },
   "days": [
-    {
-      "date": "2025-09-14",
-      "count": 2,
-      "level": 1
-    },
     {
       "date": "2025-09-21",
       "count": 0,
@@ -278,9 +273,9 @@
       "level": 4
     },
     {
-      "date": "2025-09-15",
-      "count": 0,
-      "level": 0
+      "date": "2026-09-20",
+      "count": 1,
+      "level": 1
     },
     {
       "date": "2025-09-22",
@@ -543,11 +538,6 @@
       "level": 2
     },
     {
-      "date": "2025-09-16",
-      "count": 0,
-      "level": 0
-    },
-    {
       "date": "2025-09-23",
       "count": 0,
       "level": 0
@@ -806,11 +796,6 @@
       "date": "2026-09-15",
       "count": 17,
       "level": 3
-    },
-    {
-      "date": "2025-09-17",
-      "count": 0,
-      "level": 0
     },
     {
       "date": "2025-09-24",
@@ -1073,11 +1058,6 @@
       "level": 1
     },
     {
-      "date": "2025-09-18",
-      "count": 0,
-      "level": 0
-    },
-    {
       "date": "2025-09-25",
       "count": 1,
       "level": 1
@@ -1338,11 +1318,6 @@
       "level": 2
     },
     {
-      "date": "2025-09-19",
-      "count": 1,
-      "level": 1
-    },
-    {
       "date": "2025-09-26",
       "count": 1,
       "level": 1
@@ -1601,11 +1576,6 @@
       "date": "2026-09-18",
       "count": 29,
       "level": 4
-    },
-    {
-      "date": "2025-09-20",
-      "count": 0,
-      "level": 0
     },
     {
       "date": "2025-09-27",
