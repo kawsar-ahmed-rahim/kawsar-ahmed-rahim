@@ -16,6 +16,18 @@
 
 ---
 
+## <code>About Me</code>
+
+<div align="center">
+
+👨‍💻 **Full-Stack Developer & Competitive Programmer**
+
+I am a Full-Stack Developer and Competitive Programmer dedicated to building scalable, performant web applications while sharpening my problem-solving skills through Data Structures & Algorithms. Passionate about clean system design, efficient code, and turning ideas into real, working products.
+
+</div>
+
+---
+
 ## **<code>Contribution Activity</code>**
 
 <div align="center">
