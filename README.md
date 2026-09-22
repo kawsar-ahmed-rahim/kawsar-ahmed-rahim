@@ -60,7 +60,7 @@ Personal developer portfolio presenting skills, projects and contact information
 
 ### Backend / Database
 
-<img src="https://skillicons.dev/icons?i=nodejs,express,python,django" alt="Backend">
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,django" alt="Backend">
 
 ### Tools / DevOps
 
