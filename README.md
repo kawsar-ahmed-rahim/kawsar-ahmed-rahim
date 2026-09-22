@@ -68,11 +68,11 @@ Personal developer portfolio presenting skills, projects and contact information
 
 ### Deploy
 
-<img src="https://skillicons.dev/icons?i=vercel,netlify" alt="Deploy">
+<img src="https://skillicons.dev/icons?i=vercel,netlify,github" alt="Deploy">
 
 ### Languages
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,cpp" alt="Languages">
+<img src="https://skillicons.dev/icons?i=js,java,html,css,python,cpp,c" alt="Languages">
 
 ---
 
