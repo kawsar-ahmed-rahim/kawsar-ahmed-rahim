@@ -28,6 +28,14 @@ I am a Full-Stack Developer and Competitive Programmer dedicated to building sca
 
 ---
 
+## <code>Top Languages by Codebase</code>
+
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kawsar-ahmed-rahim&layout=compact&theme=dark&hide_border=true&bg_color=0d0d0d&title_color=00BFFF&text_color=ffffff&langs_count=8" alt="Top Languages">
+</div>
+
+---
+
 ## **<code>Contribution Activity</code>**
 
 <div align="center">
