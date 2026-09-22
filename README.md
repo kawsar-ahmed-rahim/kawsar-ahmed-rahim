@@ -56,11 +56,23 @@ Personal developer portfolio presenting skills, projects and contact information
 
 ### Frontend / UI
 
-<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap,html,css,js,ts" alt="Frontend">
+<img src="https://skillicons.dev/icons?i=react,tailwind,bootstrap" alt="Frontend">
+
 ### Backend / Database
-<img src="https://skillicons.dev/icons?i=nodejs,express,python,django,mongodb,mysql" alt="Backend">
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,python,django" alt="Backend">
+
 ### Tools / DevOps
-<img src="https://skillicons.dev/icons?i=git,github,vscode,postman,vercel,netlify" alt="Tools">
+
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" alt="Tools">
+
+### Deploy
+
+<img src="https://skillicons.dev/icons?i=vercel,netlify" alt="Deploy">
+
+### Languages
+
+<img src="https://skillicons.dev/icons?i=js,ts,python,cpp" alt="Languages">
 
 ---
 
