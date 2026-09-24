@@ -8,7 +8,7 @@
   stroke-linecap="round" stroke-dasharray="251.327412" stroke-dashoffset="37.6991118"
   transform="rotate(-90 150 90)"/>
 <text x="150" y="88" text-anchor="middle" font-size="18" font-weight="700"
-  fill="#ffffff" font-family="JetBrains Mono, monospace">553</text>
+  fill="#ffffff" font-family="JetBrains Mono, monospace">556</text>
 <text x="150" y="104" text-anchor="middle" font-size="8" fill="#8b8b8b"
   font-family="JetBrains Mono, monospace">TOTAL</text>
 <text x="150" y="148" text-anchor="middle" font-size="10" font-weight="600"
@@ -19,7 +19,7 @@
   stroke-linecap="round" stroke-dasharray="251.327412" stroke-dashoffset="37.6991118"
   transform="rotate(-90 390 90)"/>
 <text x="390" y="88" text-anchor="middle" font-size="18" font-weight="700"
-  fill="#ffffff" font-family="JetBrains Mono, monospace">45</text>
+  fill="#ffffff" font-family="JetBrains Mono, monospace">46</text>
 <text x="390" y="104" text-anchor="middle" font-size="8" fill="#8b8b8b"
   font-family="JetBrains Mono, monospace">DAYS</text>
 <text x="390" y="148" text-anchor="middle" font-size="10" font-weight="600"
@@ -30,7 +30,7 @@
   stroke-linecap="round" stroke-dasharray="251.327412" stroke-dashoffset="37.6991118"
   transform="rotate(-90 630 90)"/>
 <text x="630" y="88" text-anchor="middle" font-size="18" font-weight="700"
-  fill="#ffffff" font-family="JetBrains Mono, monospace">45</text>
+  fill="#ffffff" font-family="JetBrains Mono, monospace">46</text>
 <text x="630" y="104" text-anchor="middle" font-size="8" fill="#8b8b8b"
   font-family="JetBrains Mono, monospace">DAYS MAX</text>
 <text x="630" y="148" text-anchor="middle" font-size="10" font-weight="600"
@@ -409,5 +409,6 @@
 <rect x="736" y="170" width="10" height="10" rx="2" fill="#0a3d62" />
 <rect x="736" y="183" width="10" height="10" rx="2" fill="#1477b3" />
 <rect x="736" y="196" width="10" height="10" rx="2" fill="#0a3d62" />
-<rect x="736" y="209" width="10" height="10" rx="2" fill="#0a3d62" />
+<rect x="736" y="209" width="10" height="10" rx="2" fill="#1477b3" />
+<rect x="736" y="222" width="10" height="10" rx="2" fill="#0a3d62" />
 </svg>
