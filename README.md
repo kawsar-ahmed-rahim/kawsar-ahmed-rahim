@@ -68,19 +68,21 @@ Full-stack restaurant experience with React and a Node/Express backend.
 Personal developer portfolio presenting skills, projects and contact information.
 <br><b>Stack:</b> React · Vite · Framer Motion
 </td>
- </td>
+<tr>
+  </td>
   <td width="50%" valign="top">
 <h3>🏥 Hospital Management</h3>
-<a href="YOUR_HOSPITAL_LIVE_LINK"><img src="https://dummyimage.com/800x450/0d0d0d/00BFFF&text=Hospital+Management" width="100%" alt="Hospital Management"></a>
+<a href="https://medicare-yobd.vercel.app/"><img src="https://dummyimage.com/800x450/0d0d0d/00BFFF&text=Hospital+Management" width="100%" alt="Hospital Management"></a>
 Full-stack healthcare platform for booking doctor appointments and services, with secure patient authentication, a separate doctor login, and online payment verification.
 <br><b>Stack:</b> React · Vite · Node.js · Express · Clerk · Cloudinary
 </td>
   <td width="50%" valign="top">
 <h3>📚 Library Management</h3>
-<a href="YOUR_LIBRARY_LIVE_LINK"><img src="https://dummyimage.com/800x450/0d0d0d/00BFFF&text=Library+Management" width="100%" alt="Library Management"></a>
+<a href="https://library-management-8xfo.vercel.app/"><img src="https://dummyimage.com/800x450/0d0d0d/00BFFF&text=Library+Management" width="100%" alt="Library Management"></a>
 Library system with separate admin and student interfaces. Admins issue books, mark returns, manage fines and export records to CSV; students manage their profile and track their books.
 <br><b>Stack:</b> React · Vite · Node.js · Express
 </td>
+</tr>
 </tr></table>
 
 ---
