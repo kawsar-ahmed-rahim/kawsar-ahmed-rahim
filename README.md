@@ -64,9 +64,22 @@ Full-stack restaurant experience with React and a Node/Express backend.
 </td>
 <td width="50%" valign="top">
 <h3>🧑‍💻 Portfolio</h3>
-<a href="https://spectacular-macaron-597a89.netlify.app/"><img src="https://dummyimage.com/800x450/0d0d0d/00BFFF&text=Portfolio" width="100%" alt="Portfolio"></a>
+<a href="https://kawsar-rahim-portfolio.netlify.app/"><img src="https://dummyimage.com/800x450/0d0d0d/00BFFF&text=Portfolio" width="100%" alt="Portfolio"></a>
 Personal developer portfolio presenting skills, projects and contact information.
 <br><b>Stack:</b> React · Vite · Framer Motion
+</td>
+ </td>
+  <td width="50%" valign="top">
+<h3>🏥 Hospital Management</h3>
+<a href="YOUR_HOSPITAL_LIVE_LINK"><img src="https://dummyimage.com/800x450/0d0d0d/00BFFF&text=Hospital+Management" width="100%" alt="Hospital Management"></a>
+Full-stack healthcare platform for booking doctor appointments and services, with secure patient authentication, a separate doctor login, and online payment verification.
+<br><b>Stack:</b> React · Vite · Node.js · Express · Clerk · Cloudinary
+</td>
+  <td width="50%" valign="top">
+<h3>📚 Library Management</h3>
+<a href="YOUR_LIBRARY_LIVE_LINK"><img src="https://dummyimage.com/800x450/0d0d0d/00BFFF&text=Library+Management" width="100%" alt="Library Management"></a>
+Library system with separate admin and student interfaces. Admins issue books, mark returns, manage fines and export records to CSV; students manage their profile and track their books.
+<br><b>Stack:</b> React · Vite · Node.js · Express
 </td>
 </tr></table>
 
@@ -114,7 +127,7 @@ Personal developer portfolio presenting skills, projects and contact information
 <a href="https://www.facebook.com/rahim.kawsar.382107"><img src="https://img.shields.io/badge/Facebook-0d0d0d?style=for-the-badge&logo=facebook&logoColor=00BFFF" alt="Facebook"></a>
 <a href="mailto:kahmedrahim1512@gmail.com"><img src="https://img.shields.io/badge/Gmail-0d0d0d?style=for-the-badge&logo=gmail&logoColor=00BFFF" alt="Gmail"></a>
 <a href="https://github.com/kawsar-ahmed-rahim"><img src="https://img.shields.io/badge/GitHub-0d0d0d?style=for-the-badge&logo=github&logoColor=00BFFF" alt="GitHub"></a>
-<a href="https://spectacular-macaron-597a89.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0d0d0d?style=for-the-badge&logo=googlechrome&logoColor=00BFFF" alt="Portfolio"></a>
+<a href="https://kawsar-rahim-portfolio.netlify.app/"><img src="https://img.shields.io/badge/Portfolio-0d0d0d?style=for-the-badge&logo=googlechrome&logoColor=00BFFF" alt="Portfolio"></a>
 <br><br>
 <a href="https://quickchart.io/qr?text=https%3A%2F%2Fspectacular-macaron-597a89.netlify.app%2F&size=220"><img src="https://quickchart.io/qr?text=https%3A%2F%2Fspectacular-macaron-597a89.netlify.app%2F&size=160" width="120" alt="Portfolio QR code"></a>
 </div>
